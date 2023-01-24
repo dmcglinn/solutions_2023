@@ -2,7 +2,7 @@
 #' title: "Solutions to Assignment 1: R basics"
 #' author: "Dan McGlinn"
 #' date: '`r Sys.Date()`'
-#' output: html_document
+#' output: pdf_document
 #' ---
 #' 
 #' 
