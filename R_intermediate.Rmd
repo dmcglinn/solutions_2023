@@ -37,8 +37,8 @@ for(i in seq_along(sp_ids)) {
 }
 output
 ```
-##Excercises
-###Iris loops
+## Excercises  
+### Iris loops  
 
 1. Describe the values stored in the object `output`. In other words what did the 
 loops create?
@@ -86,8 +86,9 @@ for(i in seq_along(sp_ids)) {
 
 The loop above is much easier to read and understand by not using vague names.
 
-4. It is possible to accomplish the same task using fewer lines of code? Please suggest one other way to calculate `output` that decreases the number of loops
-by 1. 
+4. It is possible to accomplish the same task using fewer lines of code? Please
+suggest one other way to calculate `output` that decreases the number of loops
+by 1.
 
 ```{r}
 # R has a function to compute means so we can drop quite a few lines using that
@@ -129,7 +130,7 @@ So argue that the dplyr approach is the most 'readable', but I find that I alway
 have to google how to specify the arguments and functions for dplyr (maybe that's
 just me though). 
 
-###Sum of a sequence
+### Sum of a sequence  
 
 5. You have a vector `x` with the numbers 1:10. Write a
 for loop that will produce a vector `y` that contains the sum of `x` up to that
@@ -284,4 +285,5 @@ useful design tool when developing aesthetically pleasing layout (Gendelman 2015
 
 
 
-Citation: Gendelman, V. 2015. How to Use the Golden Ratio to Create Gorgeous Graphic Designs https://www.companyfolders.com/blog/golden-ratio-design-examples
+Citation: Gendelman, V. 2015. How to Use the Golden Ratio to Create Gorgeous
+Graphic Designs https://www.companyfolders.com/blog/golden-ratio-design-examples
